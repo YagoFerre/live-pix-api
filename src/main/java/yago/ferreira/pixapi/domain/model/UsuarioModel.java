@@ -2,9 +2,9 @@ package yago.ferreira.pixapi.domain.model;
 
 import java.time.LocalDateTime;
 
-public class NotificationModel {
+public class UsuarioModel {
     private Long id;
-    private UsuarioModel usuarioModel;
-    private String message;
+    private String nome;
+    private String email;
     private LocalDateTime createdAt;
 }
