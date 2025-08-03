@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>yago.ferreira</groupId>
-    <artifactId>live-pix-api</artifactId>
+    <artifactId>notification-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>pix-api</name>
     <description>pix-api</description>
