@@ -11,8 +11,8 @@
     <groupId>yago.ferreira</groupId>
     <artifactId>notification-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pix-api</name>
-    <description>pix-api</description>
+    <name>api</name>
+    <description>api</description>
     <url/>
     <licenses>
         <license/>
