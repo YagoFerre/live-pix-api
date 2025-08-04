@@ -25,6 +25,10 @@ public class RabbitMqConfig {
         return new RabbitAdmin(connectionFactory);
     }
 
+    /**
+     * ApplicationListener<Type> -> componente que ouve/reage as eventos
+     * do ciclo de vida do Spring Boot
+     */
     @Bean
     public ApplicationListener<ApplicationReadyEvent> applicationReadyEventApplicationListener(RabbitAdmin rabbitAdmin) {
         return event -> rabbitAdmin.initialize();
