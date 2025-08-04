@@ -17,9 +17,9 @@ services:
     ports:
       - "5672:5672"
       - "15672:15672"
-    volumes:
-      - mq_pix_notification_data:var/lib/rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
 
 volumes:
   db_pix_notification_data:
-  mq_pix_notification_data:

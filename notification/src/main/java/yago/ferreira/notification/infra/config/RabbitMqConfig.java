@@ -1,4 +1,4 @@
-package yago.ferreira.api.infra.config;
+package yago.ferreira.notification.infra.config;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
