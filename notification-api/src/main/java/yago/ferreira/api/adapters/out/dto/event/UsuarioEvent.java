@@ -1,4 +1,4 @@
-package yago.ferreira.api.adapters.in.controller.dto.event;
+package yago.ferreira.api.adapters.out.dto.event;
 
 import lombok.Getter;
 import lombok.Setter;
